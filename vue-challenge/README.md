@@ -74,13 +74,14 @@ For this feature, I handled the table title text size change through clamping an
 
 The biggest challenge was organising and designating time to different tasks in advance based on the amount of time available. If I had more than 4 hours, I would:
 
-    Improve styling: As said in the previous section, I would spend time tailoring the interface design to fit the target demographic better. I would also design a better layout for mobile users in order to better display the whole table without the need for horizontal scrolling.
+Improve styling: As said in the previous section, I would spend time tailoring the interface design to fit the target demographic better. I would also design a better layout for mobile users in order to better display the whole table without the need for horizontal scrolling.
 
-    Additional Features: As additional features, the first thing I would do is add pagination to allow larger amounts of data to be displayed in a more organized way, separating it into different pages of a given length. This would significantly improve the user experience. I would also add a bit more functionality to the base button component and some pseudo elements on hover that provide information about the row/element.
+Additional Features: As additional features, the first thing I would do is add pagination to allow larger amounts of data to be displayed in a more organized way, separating it into different pages of a given length. This would significantly improve the user experience. I would also add a bit more functionality to the base button component and some pseudo elements on hover that provide information about the row/element.
 
-    Better Typescript support: This is an area where I struggle a bit more when it comes to time. When I first started learning to program, I learned JavaScript, and I’m in the process of fully adapting to its TypeScript superset. Sometimes, figuring out how to incorporate features like generic types in my composables is quite time consuming. I prioritized delivering the feature’s functionality fully working rather than having my types 100% right.
+Better Typescript support: This is an area where I struggle a bit more when it comes to time. When I first started learning to program, I learned JavaScript, and I’m in the process of fully adapting to its TypeScript superset. Sometimes, figuring out how to incorporate features like generic types in my composables is quite time consuming. I prioritized delivering the feature’s functionality fully working rather than having my types 100% right.
 
-Note on envs
+## Note on envs
+
 When working in a production environment, the API endpoint would be hidden into a .env file. Since this relies on a public Postman mock server for the feature to be tested, I intentionally left the URL hardcoded in my fetching call. This way the feature can be tested out of the box.
 
 Thank you for taking the time to read this document.
